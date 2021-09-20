@@ -1,0 +1,117 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    border-radius: 18px;
+}
+body{
+    line-height: 1.5;
+}
+
+h1{
+    font-size: 36px;
+}
+h2{
+    font-size: 28px;
+}
+p{
+    font-size:18px;
+}
+header{
+    background-color:indianred;
+    padding:20px;
+    margin:10px;
+}
+.brand_name
+{
+    box-sizing: border-box;
+    display:inline-block;
+    width:20%;
+    margin:auto auto auto 0;
+}
+.navigation{
+    box-sizing: border-box;
+    display:inline-block;  
+    width:80%; 
+    margin:auto 0 auto auto;
+    text-align: right;
+    
+}
+.navigation a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    padding-left:10px;
+    
+}
+.introduction{
+    width:50%;
+    display:inline-block;
+    text-align: center;
+    background-color: darkcyan;
+    margin:1.5%;
+}
+
+.image{
+    width:44%;
+    display:inline-block;
+    vertical-align:top;
+    text-align:center;
+    margin:1.5%;
+}
+footer{
+    background-color: burlywood;
+    margin:10px;
+}
