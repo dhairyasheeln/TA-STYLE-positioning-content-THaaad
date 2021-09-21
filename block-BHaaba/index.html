@@ -1,0 +1,47 @@
+<!-- ### Exercise 2
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+3. Inside the main content crate three columns. In each column take one image and a paragraph below the image.
+4. Using float is necessary. -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Positioning-Block 5</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="clearfix">
+                <h1 class="brand">Altcampus</h1>
+                <nav class="navigation_top">
+                    <a href="#">home</a>
+                    <a href="#">login</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="clearfix">
+                <article class="article_1">
+                    <img src="media/laptop.jpeg" alt="laptop"/>
+                    <p class="article_description">Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” – Martin Fowler</p>
+                </article>
+                <article class="article_2">
+                    <img src="media/patience.jpeg" alt="Patience"/>
+                    <p class="article_description">"How many a man has thrown up his hands at a time when a little more effort, a little more patience would have achieved success" – Elbert Hubbard</p>
+                </article>
+                <article class="article_3">
+                    <img src="media/pen.jpeg" alt="pen"/>
+                    <p class="article_description">“Knowledge is a weapon. I intend to be formidably armed.”― Terry Goodkind</p>
+                </article>
+            </div>
+        </main>
+        <footer>
+            <p>&copy All Rights Reserved by Altcampus</p>
+        </footer>
+    </body>
+</html>
