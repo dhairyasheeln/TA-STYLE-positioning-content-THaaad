@@ -1,0 +1,83 @@
+<!-- ### Exercise
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the logo to the left and all the navigation to the right.
+
+3. The header must be fixed at the top of the page.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Positioning-Ass_2</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header id="top" class="header">
+            <div class="container clearfix">
+                <a class="logo" href="#"><img src="media/logo.jpeg" alt="logo"/></a>
+                <nav class="nav">
+                    <a href="#">home</a>
+                    <a href="#">about</a>
+                    <a href="#">contact</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <article id="article">
+                <div class="container clearfix">
+                    <section class="col">
+                        <h2>Altcampus</h2>
+                        <h3>Of course, train hard.</h3>
+                        <p>Everyday, everyone shows up. We learn, build, teach, discuss, and make progress on the software side of things.
+                        We keep the learning intense.
+                        We care utmost about it.</p>
+                        <h3>Make friends</h3>
+                        <p>Internally, we say this often - Skills are the second best thing students will develop here. The best will be friendships.
+                        These friends, later in life, can be your co-founders, co-workers, at the least they will form the core of your professional network.</p>
+                        <h3>Play</h3>
+                        <p>We do things that everyone wants to - play sports, run, sweat, meditate, exercise, yoga. You know, healthy things.
+                        Every goal/run you score is a shipped project. Lead an active lifestyle.</p>
+                    </section>
+
+                    <section class="col">
+                        <img src="media/article_img.jpeg" alt="Altcampus"/>
+                    </section>
+                </div>
+            </article>
+
+            <section class="gallery">
+                <div class="container clearfix">
+                    <img class="img" src="media/web.jpeg"/>
+                    <img class="img" src="media/coding.jpeg"/>
+                    <img class="img" src="media/debug.jpeg"/>
+                </div>
+
+                <div class="container clearfix">
+                    <img class="img" src="media/sun.jpeg"/>
+                    <img class="img" src="media/hd.jpeg"/>
+                    <img class="img" src="media/laptop.jpeg"/>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                <p>&copy; Altcampus</p>
+                <button class="button">
+                    <a href="#article">TOP</a>
+                </button>
+            </div>
+        </footer>
+    </body>
+</html>
