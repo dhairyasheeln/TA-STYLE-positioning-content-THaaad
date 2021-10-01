@@ -1,0 +1,237 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Custom styles*/
+
+/*Body*/
+
+body{
+    line-height: 1.5;
+}
+
+/*Container*/
+
+.container{
+    max-width:1400px;
+    margin:0 auto;
+}
+
+/*Clearfix*/
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    display:table
+}
+.clearfix::after{
+    clear: both;
+}
+
+/*Header*/
+.header{
+    background-color:#4d88ff;
+    padding:50px 0;
+}
+
+.brand{
+    float:left;
+    font-size: 16px;
+    color: white;
+}
+.nav{
+    float:right;
+}
+
+.nav a{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color:white;
+    margin-right: 5px;
+}
+
+/*Main*/
+
+/*Hero Section*/
+
+.hero{
+    text-align: center;
+    background-color:#4d88ff;
+    padding-top:50px;
+    padding-bottom: 150px;
+}
+.hero h1{
+    font-size: 54px;
+    color: white;
+}
+.hero p{
+    font-size: 16px;
+    color:white;
+}
+
+/*Article*/
+
+.article{
+    padding:50px 0;
+}
+
+.col{
+    float:left;
+    width:25%;
+    padding:0 4%;
+}
+.article-heading{
+    font-size: 25px;
+    color:#4d88ff;
+}
+
+.article-text{
+    font-size: 20px;
+    color:gray;
+}
+
+.article-button{
+    display:inline-block;
+    text-decoration: none;
+    color: white;
+    width:68px;
+    height:36px;
+    background-color:#4d88ff;
+    text-align: center;
+    line-height: 36px;
+    margin-top:20px;
+}
+
+/*Gallery*/
+
+.gallery{
+    text-align:center;
+    background-color:#4d88ff;
+    padding:70px 0;
+
+}
+
+.image{
+    
+    float:left;
+    width:20%;
+    height:300px;
+    border: 0.5px solid white;
+    margin:38px 2.4%;
+
+}
+
+.profile-pic{
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.gallery p{
+    color: white;
+}
+.gallery  h2{
+    font-size: 48px;
+    color:white
+}
+
+.gallery h3{
+    font-size: 24px;
+    color: white;
+}
+
+/*Photoraphy*/
+
+.photography{
+    padding:70px 0;
+}
+
+.photography h2{
+    color:#4d88ff;
+    font-size:48px ;
+}
+
+
+.photography p{
+    color:gray;
+    font-size: 16px;
+
+}
+
+.photo{
+    float:left;
+    width:40%;
+    margin:5% 5%;
+}
+
+.pic{
+    width:100%;
+}
+
+/*Footer*/
+
+.footer{
+    color:gray;
+    padding:20px 0;
+}
+.copyright{
+    float:left;
+}
+.nav-bottom{
+    float:right;
+}
+
+
+.nav-bottom a{
+    margin-right:15px;
+    color:#4d88ff;
+}
